@@ -1,4 +1,4 @@
-Copiright devnrev, 2012
+Copyright devnrev, 2012
 
 Ida Function definer quickly runs over the whole text segment of a macho binary and defines red marked functions whenever possible. It even tries to find unrecognized functions in unknown code which was not processed.
 
@@ -23,7 +23,7 @@ Installation instructions:
 Copy IdaFunctionDefiner.pmc from build directory insinde the plugin directory of Ida. 
 For example: /Applications/idaq.app/Contents/MacOS/plugins
 
-Thanks to fG! for his ida plugin xcode template. Check out his blog at http://reverse.put.as/
+Thanks to fG! for his ida plugin Xcode template. Check out his blog at http://reverse.put.as/
 Also great ressource is http://www.binarypool.com/idapluginwriting/
 
 
