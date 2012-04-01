@@ -1,0 +1,26 @@
+Copiright devnrev, 2012
+
+Ida Function definer quickly runs over the whole text segment of a macho binary and defines red marked functions whenever possible. It even tries to find unkrecognized functions in unknown code which was not processed.
+
+Build instructions:
+
+Needed environment variables:
+
+IDA_SDK 	- ida sdk directory
+IDA_LIB_DIR - directory of libida.dylib
+
+Example defintion for terminal setup:
+
+launchctl setenv IDA_SDK /SDK/ida
+launchctl setenv IDA_LIB_DIR /Applications/idaq.app/Contents/MacOS
+
+Installation instructions:
+
+Copy IdaFunctionDefiner.pmc from build directory insinde the plugin directory of Ida. 
+For example: /Applications/idaq.app/Contents/MacOS/plugins
+
+Thanks to fG! for his ida plugin xcode template. Check out his blog at http://reverse.put.as/
+Also great ressource is http://www.binarypool.com/idapluginwriting/
+
+
+
