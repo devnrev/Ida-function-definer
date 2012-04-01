@@ -1,6 +1,6 @@
 Copiright devnrev, 2012
 
-Ida Function definer quickly runs over the whole text segment of a macho binary and defines red marked functions whenever possible. It even tries to find unkrecognized functions in unknown code which was not processed.
+Ida Function definer quickly runs over the whole text segment of a macho binary and defines red marked functions whenever possible. It even tries to find unrecognized functions in unknown code which was not processed.
 
 Requirements:
 	- Xcode 4
