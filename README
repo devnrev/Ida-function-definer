@@ -2,11 +2,15 @@ Copiright devnrev, 2012
 
 Ida Function definer quickly runs over the whole text segment of a macho binary and defines red marked functions whenever possible. It even tries to find unkrecognized functions in unknown code which was not processed.
 
+Requirements:
+	- Xcode 4
+	- Mac OSX SDK 10.7
+
 Build instructions:
 
 Needed environment variables:
 
-IDA_SDK 	- ida sdk directory
+IDA_SDK - ida sdk directory
 IDA_LIB_DIR - directory of libida.dylib
 
 Example defintion for terminal setup:
